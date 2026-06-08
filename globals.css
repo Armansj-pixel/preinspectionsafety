@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+input, button, textarea {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+button:active {
+  opacity: 0.75;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 2px;
+}
